@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+Form {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  justify-items: center;
+  margin: 0;
+}
+
+.textField {
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.submit {
+  flex-basis: 100%;
+}
+
+.formControl {
+  margin-top: 10px;
+  display: block;
+  flex-basis: 100%;
+}
+
+.memberListContainer {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.member {
+  width: 100%;
+  padding: 20px;
+}
